@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 5</title>
+<!-- <script src = "script.js"></script>-->
+    <script>
+     //   STEP 5
+        /*window.addEventListener("load", init, false);
+        function init() {
+            myBtn.addEventListener("click", msg, false);
+        }
+        function msg() {
+            window.alert("I have been clicked:");
+        }*/
+    </script>
+</head>
+<body> 
+    <!--STEP 1 
+    <button onclick="displayMessage()">Click Me</button> --> 
+    
+     <!--STEP 2    
+     <button id = "myBtn">Click Me</button>-->
+     <!--
+     STEP 6
+    <a href ="http://www.google.com" id = "redirect">Visit Google</a>-->
+    
+    <!-- STEP 7-->
+    <!--<input type="text" id="x">
+    <input type="button" id="btn" value="Click me">-->
+    
+    <!--STEP 8-->
+    <input type="button" value="Open Window" onclick="openWin()">
+    
+    <!--STEP 9-->
+    <!--<input type="button" value="START" onclick="myVar = setInterval(display, 2000)">
+    <input type="button" value="STOP" onclick="clearInterval(myVar)">
+    -->
+    <!--STEP 10-->
+    <!--<select id="optCity">
+        <option value="San Diego">San Diego</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="San Jose">San Jose</option> 
+    </select>
+    <input type="button" value="Select" onclick="city()">  -->  
+    <script>
+        
+        //STEP 1
+        /*function displayMessage() {
+            window.alert("I have been clicked(using old school method)");
+        } */
+        
+        //STEP 2
+        /*var myElement = document.getElementById("myBtn");
+        myElement.onclick = function()
+        {window.alert("I have been clicked(using id)");
+        }*/
+       
+        //STEP 3
+        /*myBtn.addEventListener("click", msg, false);
+        function msg() {
+            window.alert("I have been clicked(event listener)");
+        }*/
+        
+        //STEP 4
+       /* myBtn.addEventListener("click", function() {
+          window.alert("I have been clicked(event listener using call back function)");              }, false);       
+           */                 
+        
+        //STEP 6
+       /* redirect.addEventListener("click", function(event) {
+	           event.preventDefault();
+        });*/
+        
+        //STEP 7
+           /* btn.addEventListener("click", display, false);
+            function display(obj) {
+            btn.disabled = true;
+            var val = document.getElementById("x");
+            window.alert(val.value);
+        }*/
+        
+        //STEP 8
+         function openWin() {
+    window.open("newindex.html","", "300px", "300px");
+}
+        //STEP 9
+        /*
+        function display() {
+          window.console.log("Learning Javascript is fun!"); 
+        }*/
+        
+        //STEP 10
+         /*function city(){
+           var x= document.getElementById("optCity").value ;
+           window.alert(x); 
+         }*/
+              
+    </script>
+</body>
+</html>
